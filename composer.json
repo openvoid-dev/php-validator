@@ -1,0 +1,34 @@
+{
+    "name": "openvoid/php-validator",
+    "description": "Simple validation classes to validate your PHP data.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OpenVoid\\Validator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonio Obradović",
+            "email": "antonio@obradovic.dev"
+        }
+    ],
+    "support": {
+        "email": "antonio@obradovic.dev",
+        "issues": "https://github.com/openvoid-dev/php-validator/issues"
+    },
+    "minimum-stability": "stable",
+    "require": {},
+    "keywords": [
+        "validation",
+        "php",
+        "data-validation"
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/openvoid-dev/php-validator"
+        }
+    ]
+}
