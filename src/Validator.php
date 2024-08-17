@@ -34,6 +34,7 @@ class Validator
             if (! is_array($validators)) {
                 $validators = [$validators];
             }
+
             $this->add_validator($field, $validators);
         }
     }
@@ -52,7 +53,7 @@ class Validator
 
             foreach ($validators as $validator) {
                 if ($validator->validate($this->data[$field]) === false) {
-                    $this->add_error($field, (string) $validator->getError());
+                    $this->add_error($field, (string) $validator->get_error());
                 }
             }
         }

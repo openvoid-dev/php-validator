@@ -20,5 +20,5 @@ interface ValidatorInterface
      *
      * @return string|null The error message or null if no error
      */
-    public function getError() : ?string;
+    public function get_error() : ?string;
 }
