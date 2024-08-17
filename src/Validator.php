@@ -11,7 +11,7 @@ use function is_array;
 use function is_object;
 use function sprintf;
 
-class Validator
+final class Validator
 {
     /**
      * @var array<string,array>
