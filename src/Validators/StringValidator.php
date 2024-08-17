@@ -10,10 +10,10 @@ use function strlen;
 class StringValidator extends AbstractValidator
 {
     private string $invalid_message = 'Invalid type given. String expected.';
-    private string $min_message = '{{ value }} must be at least {{ limit }} characters long';
-    private string $max_message = '{{ value }} cannot be longer than {{ limit }} characters';
-    private ?int $min = null;
-    private ?int $max = null;
+    private string $min_message     = '{{ value }} must be at least {{ limit }} characters long';
+    private string $max_message     = '{{ value }} cannot be longer than {{ limit }} characters';
+    private ?int   $min             = null;
+    private ?int   $max             = null;
 
     public function validate($value) : bool
     {

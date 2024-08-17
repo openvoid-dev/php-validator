@@ -14,8 +14,8 @@ class Integer extends AbstractValidator
      * @var string
      */
     private $invalid_message = 'This value should be of type {{ type }}.';
-    private $min_message = '{{ value }} should be {{ limit }} or more.';
-    private $max_message = '{{ value }} should be {{ limit }} or less.';
+    private $min_message     = '{{ value }} should be {{ limit }} or more.';
+    private $max_message     = '{{ value }} should be {{ limit }} or less.';
 
     /**
      * @var int|null

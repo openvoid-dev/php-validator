@@ -19,7 +19,6 @@
         "issues": "https://github.com/openvoid-dev/php-validator/issues"
     },
     "minimum-stability": "stable",
-    "require": {},
     "keywords": [
         "validation",
         "php",
@@ -30,5 +29,8 @@
             "type": "vcs",
             "url": "https://github.com/openvoid-dev/php-validator"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
 }
